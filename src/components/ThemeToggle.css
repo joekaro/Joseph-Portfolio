@@ -1,0 +1,52 @@
+/* src/components/ThemeToggle.css */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 60px;
+  height: 30px;
+}
+
+.toggle-track {
+  width: 100%;
+  height: 100%;
+  background: #e5e7eb;
+  border-radius: 15px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle.dark .toggle-track {
+  background: #4b5563;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle.dark .toggle-thumb {
+  transform: translateX(30px);
+}
+
+/* Dark mode styles (basic) */
+body.dark-mode {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+body.dark-mode .navbar {
+  background-color: rgba(31, 41, 55, 0.95);
+}
