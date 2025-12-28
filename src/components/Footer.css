@@ -267,8 +267,8 @@
   }
   
   .footer-title::after {
-    left: 0;
-    right: 0;
+      left: 50%;
+    right: 50%;
     margin: 0 auto;
     width: 30px;
   }
@@ -300,8 +300,10 @@
   }
   
   .footer-title::after {
-    left: 50%;
-    transform: translateX(-50%);
+     left: 50%;
+    right: 50%;
+    margin: 0 auto;
+    width: 30px;
   }
   
   .links-list {
