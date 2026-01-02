@@ -43,7 +43,7 @@ const Projects = () => {
       title: "Real Estate Website",
       description:
         "A responsive property listing platform with advanced search, filtering, and property management features for real estate agencies.",
-      tech: ["Vue.js", "Tailwind CSS", "JavaScript", "API Integration"],
+      tech: ["Next.js, TypeScript, Tailwind CSS, Node.js, Express, Prisma, PostgreSQL"],
       features: [
         "Property search with filters",
         "Interactive property listings",
@@ -52,7 +52,7 @@ const Projects = () => {
         "Image gallery & virtual tours",
       ],
       github: "https://github.com/joekaro",
-      demo: "#",
+      demo: "https://luxelivin.netlify.app/",
       color: "#7c3aed",
     },
   ];
