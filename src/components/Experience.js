@@ -88,7 +88,7 @@ const Experience = () => {
       id: 1,
       name: "Data Analytics",
       provider: "Data Science Africa (DSA)",
-      period: "2023",
+      period: "2025",
       description: "Comprehensive data analysis and visualization training",
       icon: "fas fa-chart-line"
     },
@@ -96,7 +96,7 @@ const Experience = () => {
       id: 2,
       name: "Software Development",
       provider: "Moducode",
-      period: "2022",
+      period: "2025",
       description: "Full-stack web development certification",
       icon: "fas fa-code"
     }
