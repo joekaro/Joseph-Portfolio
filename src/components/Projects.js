@@ -35,7 +35,7 @@ const Projects = () => {
         "Dashboard",
       ],
       github: "https://github.com/joekaro",
-      demo: "https://durrgie.netlify.app/",
+      demo: "https://teamviews.vercel.app/",
       color: "#16a34a",
     },
     {
