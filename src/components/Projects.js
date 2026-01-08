@@ -23,16 +23,16 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Pet Care Web App",
+      title: "Project Manager App",
       description:
-        "A comprehensive platform for pet grooming and veterinary services booking. Features scheduling, service management, and user profiles.",
-      tech: ["Vue.js", "JavaScript", "HTML", "CSS", "Bootstrap"],
+        "A comprehensive platform for project management.",
+      tech: ["React","TypeScript","JavaScript","Tailwind CSS", "React Beautiful DnD or dnd-kit", "Node.js + Express","MongoD" ],
       features: [
-        "Service booking & scheduling",
-        "Pet profile management",
-        "Veterinary appointment system",
-        "Responsive design",
-        "Service provider dashboard",
+        "User authentication - Sign up, login, logout",
+        "Projects - Create, view, edit, delete projects",
+        "Add tasks to projects",
+        "Kanban board view",
+        "Dashboard",
       ],
       github: "https://github.com/joekaro",
       demo: "https://durrgie.netlify.app/",
@@ -43,7 +43,7 @@ const Projects = () => {
       title: "Real Estate Website",
       description:
         "A responsive property listing platform with advanced search, filtering, and property management features for real estate agencies.",
-      tech: ["Next.js, TypeScript, Tailwind CSS, Node.js, Express, Prisma, PostgreSQL"],
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "Prisma", "PostgreSQL"]
       features: [
         "Property search with filters",
         "Interactive property listings",
