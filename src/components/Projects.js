@@ -43,7 +43,7 @@ const Projects = () => {
       title: "Real Estate Website",
       description:
         "A responsive property listing platform with advanced search, filtering, and property management features for real estate agencies.",
-      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "Prisma", "PostgreSQL"]
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "Prisma", "PostgreSQL"],
       features: [
         "Property search with filters",
         "Interactive property listings",
