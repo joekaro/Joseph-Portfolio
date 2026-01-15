@@ -7,6 +7,24 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      title: "Full Stack Developer",
+      company: "SoftlinkAI Marketing Technology Limited",
+      location: " (Remote)",
+      period: "September 2025 – Present",
+      type: "Full-time",
+      description: "•	Designing, developing, and maintaining full-stack web applications using modern front-end and back-end technologies",
+      responsibilities: [
+        "Built responsive and user-friendly interfaces while ensuring cross-browser and mobile compatibility.",
+        "Developed and consumed RESTful APIs to support scalable application features and integrations.",
+        "Implemented secure authentication, authorization, and role-based access control across applications.",
+        "Collaborated with product managers, designers, and other developers in a fully remote environment using agile workflows",
+        "Deployed, monitored, and maintained applications on cloud or hosting platforms."
+      ],
+      skills: ["React","Next.Js", "JavaScript", "HTML5/CSS", "TailwindCSS","Node.js","Express","PostgreSQL","MySQL","MongoDB"],
+      logoColor: "#2563eb"
+    },
+    {
+      id: 2,
       title: "IT Support Officer",
       company: "Starbite Integrated Catering Services Ltd",
       location: "Lagos, Nigeria",
@@ -23,7 +41,7 @@ const Experience = () => {
       logoColor: "#2563eb"
     },
     {
-      id: 2,
+      id: 3,
       title: "Full-Stack Developer Intern",
       company: "Hostedlinger",
       location: "Remote",
@@ -40,7 +58,7 @@ const Experience = () => {
       logoColor: "#16a34a"
     },
     {
-      id: 3,
+      id: 4,
       title: "Freelance Web Developer",
       company: "Self-employed",
       location: "Lagos, Nigeria",
