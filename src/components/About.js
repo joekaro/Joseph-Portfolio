@@ -104,6 +104,7 @@ const About = () => {
                   <h4>Frontend Development</h4>
                   <div className="category-skills">
                     <span className="skill-tag">React.js</span>
+                    <span className="skill-tag">Next.js (App Router)</span>
                     <span className="skill-tag">Vue.js</span>
                     <span className="skill-tag">JavaScript</span>
                     <span className="skill-tag">HTML5/CSS3</span>
@@ -118,7 +119,8 @@ const About = () => {
                     <span className="skill-tag">Node.js</span>
                     <span className="skill-tag">Express.js</span>
                     <span className="skill-tag">REST APIs</span>
-                    <span className="skill-tag">Python</span>
+                    <span className="skill-tag">Authentication & Authorization (JWT, RBAC)</span>
+                    <span className="skill-tag">Python(Laravel)</span>
                   </div>
                 </div>
 
