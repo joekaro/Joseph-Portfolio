@@ -10,7 +10,7 @@ const Experience = () => {
       title: "Full Stack Developer",
       company: "SoftlinkAI Marketing Technology Limited",
       location: " (Remote)",
-      period: "September 2025 – Present",
+      period: "September 2024 – Present",
       type: "Full-time",
       description: "•	Designing, developing, and maintaining full-stack web applications using modern front-end and back-end technologies",
       responsibilities: [
@@ -28,7 +28,7 @@ const Experience = () => {
       title: "IT Support Officer",
       company: "Starbite Integrated Catering Services Ltd",
       location: "Lagos, Nigeria",
-      period: "September 2025 – Present",
+      period: "November 2025 – Present",
       type: "Full-time",
       description: "Providing technical support and maintaining IT infrastructure for a leading catering services company.",
       responsibilities: [
@@ -92,7 +92,7 @@ const Experience = () => {
       id: 2,
       degree: "OND Computer Science",
       institution: "Ogun State Institute of Technology",
-      period: "2018 – 2020",
+      period: "2016 – 2018",
       description: "Foundation in computer programming and information technology principles.",
       courses: ["Programming Fundamentals", "Computer Architecture", "Networking Basics"],
       grade: "Distinction",
@@ -114,7 +114,7 @@ const Experience = () => {
       id: 2,
       name: "Software Development",
       provider: "Moducode",
-      period: "2025",
+      period: "2024",
       description: "Full-stack web development certification",
       icon: "fas fa-code"
     }
