@@ -133,7 +133,7 @@ const Hero = () => {
               </div>
               <div className="exp-items">
                 <div className="exp-item">
-                  <span className="exp-years">2+ Years</span>
+                  <span className="exp-years">3+ Years</span>
                   <span className="exp-title">Web Development</span>
                 </div>
                 <div className="exp-item">
