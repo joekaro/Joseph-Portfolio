@@ -22,7 +22,7 @@ const Projects = () => {
       color: "#2563eb",
     },
     {
-      id: 3,
+      id: 2,
       title: "Project Manager App",
       description:
         "A comprehensive platform for project management.",
@@ -39,7 +39,7 @@ const Projects = () => {
       color: "#16a34a",
     },
     {
-      id: 2,
+      id: 3,
       title: "Inventory management system",
       description:
         "A modern, full-featured inventory management system built with Next.js 15, Supabase, and TypeScript. Perfect for small to medium businesses to track products, manage stock, record sales, and monitor multiple locations.",
