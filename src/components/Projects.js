@@ -22,23 +22,6 @@ const Projects = () => {
       color: "#2563eb",
     },
     {
-      id: 2,
-      title: "Inventory management system",
-      description:
-        "A modern, full-featured inventory management system built with Next.js 15, Supabase, and TypeScript. Perfect for small to medium businesses to track products, manage stock, record sales, and monitor multiple locations.",
-      tech: ["Next.js 16 (App Router)", "React 19", "TypeScript", "Tailwind CSS v3", "Supabase (PostgreSQL)", "Lucide React", "qrcode library", "React Hooks"],
-      features: [
-        "Product Management - Full CRUD operations for products",
-        "Multi-Location Support - Track inventory across warehouses and stores",
-        "Stock Movement Tracking - Complete history of all inventory transactions",
-        "Low Stock Alerts - Automatic notifications when stock falls below reorder points,
-        "Real-time Dashboard - Live statistics and key performance indicators",
-      ],
-      github: "https://github.com/joekaro",
-      demo: "https://teamviews.vercel.app/",
-      color: "#16a34a",
-    },
-    {
       id: 3,
       title: "Project Manager App",
       description:
@@ -53,8 +36,26 @@ const Projects = () => {
       ],
       github: "https://github.com/joekaro",
       demo: "https://teamviews.vercel.app/",
+      color: "#16a34a",
+    },
+    {
+      id: 2,
+      title: "Inventory management system",
+      description:
+        "A modern, full-featured inventory management system built with Next.js 15, Supabase, and TypeScript. Perfect for small to medium businesses to track products, manage stock, record sales, and monitor multiple locations.",
+      tech: ["Next.js 16 (App Router)", "React 19", "TypeScript", "Tailwind CSS v3", "Supabase (PostgreSQL)", "Lucide React", "qrcode library", "React Hooks"],
+      features: [
+        "Product Management - Full CRUD operations for products",
+        "Multi-Location Support - Track inventory across warehouses and stores",
+        "Stock Movement Tracking - Complete history of all inventory transactions",
+        "Low Stock Alerts - Automatic notifications when stock falls below reorder points,
+        "Real-time Dashboard - Live statistics and key performance indicators",
+      ],
+      github: "https://github.com/joekaro",
+      demo: "https://mystoreplace.netlify.app/",
       color: "#2563eb",
     },
+  
     {
       id: 4,
       title: "Real Estate Website",
