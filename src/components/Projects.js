@@ -38,9 +38,26 @@ const Projects = () => {
       demo: "https://teamviews.vercel.app/",
       color: "#16a34a",
     },
-   
     {
       id: 3,
+      title: "Inventory management system",
+      description:
+        "A modern, full-featured inventory management system,Perfect for small to medium businesses to track products, manage stock, record sales, and monitor multiple locations.",
+      tech: ["React.js", "Node.js", "Express", "MongoDB", "JWT", "Redux"],
+      features: [
+        "Product Management - Full CRUD operations for products",
+        " Multi-Location Support - Track inventory across warehouses and stores",
+        "Stock Movement Tracking - Complete history of all inventory transactions",
+        "Low Stock Alerts - Automatic notifications when stock falls below reorder points",
+        "Real-time Dashboard - Live statistics and key performance indicators",
+      ],
+      github: "https://github.com/joekaro",
+      demo: "https://mystoreplace.netlify.app/",
+      color: "#2563eb",
+    },
+   
+    {
+      id: 4,
       title: "Real Estate Website",
       description:
         "A responsive property listing platform with advanced search, filtering, and property management features for real estate agencies.",
