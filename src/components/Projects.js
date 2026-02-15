@@ -55,7 +55,7 @@ const Projects = () => {
       demo: "https://mystoreplace.netlify.app/",
       color: "#2563eb",
     },
-  
+   
     {
       id: 4,
       title: "Real Estate Website",
@@ -67,7 +67,7 @@ const Projects = () => {
         "Interactive property listings",
         "Responsive mobile design",
         "Contact forms & inquiries",
-        "Image gallery & virtual tours",
+        "Image gallery & virtual tours"
       ],
       github: "https://github.com/joekaro",
       demo: "https://luxelivin.netlify.app/",
