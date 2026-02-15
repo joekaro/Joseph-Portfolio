@@ -43,7 +43,7 @@ const Projects = () => {
       title: "Inventory management system",
       description:
         "A modern, full-featured inventory management system,Perfect for small to medium businesses to track products, manage stock, record sales, and monitor multiple locations.",
-      tech: ["React.js", "Node.js", "Express", "MongoDB", "JWT", "Redux"],
+      tech: ["Next.js 16 (App Router),", "React 19", "TypeScript", "Tailwind CSS v3", "Supabase (PostgreSQL)"],
       features: [
         "Product Management - Full CRUD operations for products",
         " Multi-Location Support - Track inventory across warehouses and stores",
