@@ -9,7 +9,7 @@ const Projects = () => {
       title: "E-Commerce Platform",
       description:
         "A full-stack e-commerce store with user authentication, admin dashboard, and inventory management system. Built with modern technologies for optimal performance.",
-      tech: ["Next.js", "Node.js", "Express", "MongoDB", "JWT", "Redux"],
+      tech: ["Next.js 15","TypeScript","Tailwind CSS","Node.js", "Express", "MongoDB", "JWT", "Redux","Paystack integration"],
       features: [
         "User authentication & authorization",
         "Admin dashboard with analytics",
