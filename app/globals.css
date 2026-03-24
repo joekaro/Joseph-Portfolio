@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "DM Serif Display", serif;
+    --font-body: "DM Sans", sans-serif;
+    --font-mono: "DM Mono", monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background-color: #C8962E;
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #EEEEED;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #A8A8A0;
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-5xl mx-auto px-6 md:px-10;
+  }
+
+  .section-label {
+    @apply font-mono text-xs tracking-wide-md uppercase text-ink-400 mb-8;
+  }
+
+  .divider {
+    @apply border-t border-ink-200;
+  }
+
+  .tag {
+    @apply inline-block font-mono text-xs px-2.5 py-1 rounded bg-ink-100 text-ink-500 border border-ink-200;
+  }
+
+  .tag-amber {
+    @apply inline-block font-mono text-xs px-2.5 py-1 rounded bg-amber/10 text-amber border border-amber/20;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-ink-900 text-ink-50 font-body text-sm font-medium px-5 py-2.5 rounded transition-all duration-200 hover:bg-ink-700 active:scale-95;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border border-ink-300 text-ink-700 font-body text-sm font-medium px-5 py-2.5 rounded transition-all duration-200 hover:border-ink-600 hover:text-ink-900 active:scale-95;
+  }
+
+  .prose-engineer p {
+    @apply text-ink-500 leading-relaxed mb-4 text-[0.95rem];
+  }
+
+  .prose-engineer h3 {
+    @apply font-display text-xl text-ink-900 mt-8 mb-3;
+  }
+
+  .prose-engineer ul {
+    @apply list-none space-y-2 mb-4;
+  }
+
+  .prose-engineer ul li {
+    @apply text-ink-500 text-[0.95rem] pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-amber before:font-mono;
+  }
+
+  .prose-engineer code {
+    @apply font-mono text-sm bg-ink-100 px-1.5 py-0.5 rounded text-ink-700;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+
+  .opacity-0-init {
+    opacity: 0;
+  }
+}
