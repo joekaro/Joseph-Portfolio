@@ -30,7 +30,7 @@ export default function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative flex flex-col justify-center pt-24 pb-14 md:min-h-screen md:pt-28 md:pb-20"
+     className="relative flex flex-col justify-center pt-20 pb-14 md:min-h-screen md:pt-24 md:pb-20"
     >
       <div
         className="absolute inset-0 pointer-events-none"
@@ -42,13 +42,6 @@ export default function Hero() {
       />
 
       <div className="section-container relative">
-
-        <div data-fade className="mb-5 md:mb-10">
-          <span className="inline-flex items-center gap-2 font-mono text-xs text-ink-500 border border-ink-200 rounded px-3 py-1.5 bg-white">
-            <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block animate-pulse" />
-            Available for new projects · Lagos, Nigeria
-          </span>
-        </div>
 
         <h1
           data-fade
