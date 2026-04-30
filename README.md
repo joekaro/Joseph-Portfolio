@@ -2,32 +2,6 @@
 
 A professional full-stack developer portfolio built with Next.js 14, TypeScript, and Tailwind CSS.
 
-## Getting Started
-
-### Prerequisites
-- Node.js v18 or higher
-- npm or yarn
-
-### Installation
-
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Start the development server:
-```bash
-npm run dev
-```
-
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-npm run start
-```
 
 ## Project Structure
 
@@ -58,20 +32,6 @@ joseph-portfolio/
 └── next.config.js
 ```
 
-## Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com) and import the repository
-3. Vercel auto-detects Next.js — click Deploy
-
-### Deploy to Netlify
-
-```bash
-npm run build
-```
-Upload the `.next` folder or connect your GitHub repo on Netlify.
 
 ## Customisation
 
