@@ -56,13 +56,13 @@ const experiences = [
   },
   {
     role: "Software Developer Intern",
-    company: "Tech Company",
+    company: "Listed Hosting",
     type: "On-site",
     period: "June 2023 – December 2024",
     current: false,
     responsibilities: [
-      "Assisted in developing frontend interfaces using modern JavaScript frameworks",
-      "Contributed to backend API development and maintenance",
+      "Built reusable React.js components for responsive web applications",
+      "Developed backend services using Node.js and Express.js",
       "Debugged and improved application performance across features",
       "Collaborated with developers using Git version control workflows",
     ],
