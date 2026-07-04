@@ -3,7 +3,7 @@ const experiences = [
     role: "Full-Stack Developer",
     company: "SoftlinkAI Marketing Technology Limited",
     type: "Remote",
-    period: "January 2024 – Present",
+    period: "January 2026 – Present",
     current: true,
     responsibilities: [
       "Develop scalable SaaS applications using React 18 and Vite with modular component architecture",
@@ -58,7 +58,7 @@ const experiences = [
     role: "Software Developer Intern",
     company: "Tech Company",
     type: "On-site",
-    period: "July 2023 – December 2023",
+    period: "June 2023 – December 2024",
     current: false,
     responsibilities: [
       "Assisted in developing frontend interfaces using modern JavaScript frameworks",
